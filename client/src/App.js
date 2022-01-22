@@ -1,10 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Footer from "./compoents/Footer";
+import Main from "./compoents/Main";
 
 function App() {
   return (
     <>
-      <h1>Home Rental App</h1>
+      <Main></Main>
+      <Footer></Footer>
     </>
   );
 }

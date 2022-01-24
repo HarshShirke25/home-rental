@@ -24,15 +24,6 @@ function App() {
   return (
     <>
       <Navbar />
-      {houses.map((house) => {
-        return (
-          <MultiActionAreaCard
-            key={house.id}
-            nameOfProperty={house.nameOfProperty}
-            location={house.location}
-          />
-        );
-      })}
     </>
   );
 }

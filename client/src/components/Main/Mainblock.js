@@ -1,17 +1,18 @@
 import React from 'react';
-import '../css/main.css'
+import './main.css'
 
-import shape from '../images/shape.png';
-import home from '../images/home.svg';
+import shape from '../../images/shape.png';
+import home from '../../images/home.svg';
 
 
-const Main = () => {
+const Mainblock = () => {
   let url="";
   return (
     <>
       <main>
       <div className="big-wrapper light">
-      <header>
+
+        {/* <header>
           <div className="container">
             <div className="logo">
               <h3>HOME-LY</h3>
@@ -32,7 +33,23 @@ const Main = () => {
               <div className="bar"></div>
             </div>
           </div>
-        </header>
+        </header> */}
+
+      <input type="checkbox" id="check" className='hidden'/>
+      <header>
+        <h2><a href="#" class="logo">HOME-LY</a></h2>
+        <div class="navigation">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Info</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+        <label for="check">
+        <i class="fas fa-bars menu-btn"></i>
+        <i class="fas fa-times close-btn"></i>
+        </label>
+      </header>
         
         <img src={shape} alt="" className="shape" />
         <div className="showcase-area">
@@ -65,4 +82,4 @@ const Main = () => {
   )
 };
 
-export default Main;
+export default Mainblock;

@@ -1,7 +1,7 @@
 import React from 'react';
-import '../css/footer.css';
+import './footer.css';
 
-const Footer = () => {
+const Footer = (props) => {
   let url="";
   return (
     <>

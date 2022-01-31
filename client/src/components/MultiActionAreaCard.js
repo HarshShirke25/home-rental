@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
-import img from "../static/images/pro.jpg";
+import img from "../images/pro.jpg";
 
 const styles = { float: "left", margin: "30px 70px" };
 
